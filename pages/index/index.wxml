@@ -1,0 +1,76 @@
+
+<view>
+  <form bindsubmit="formSubmit">
+    <view class="weui-cells weui-cells_after-title">
+      <image src='../../images/icon/icon-location.png'></image>
+      <navigator url="../switchcity/switchcity" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+        <view class="weui-cell__bd">工作城市</view>
+        <view class="weui-cell__ft weui-cell__ft_in-access">{{location}}</view>
+        <input type='hidden' class='inputHid' name="location" value="{{location}}"></input>
+      </navigator>
+    </view>
+    <view class="weui-cells weui-cells_after-title">
+      <image src='../../images/icon/icon-location.png'></image>
+      <view class="weui-cell weui-cell_input">
+        <view class="weui-cell__hd">
+          <view class="weui-label">借款金额</view>
+        </view>
+        <view class="weui-cell__bd">
+          <input class="weui-input" placeholder="请输入借款金额" name="money"  placeholder-style="font-size:16px"/>
+        </view>
+      </view>
+    </view>
+
+    <view class="weui-cells weui-cells_after-title">
+      <image src='../../images/icon/icon-location.png'></image>
+      <view class="weui-cell weui-cell_input">
+        <view class="weui-cell__hd">
+          <view class="weui-label">本人姓名</view>
+        </view>
+        <view class="weui-cell__bd">
+          <input class="weui-input" placeholder="请输入您的姓名" name="userName" placeholder-style="font-size:16px" />
+        </view>
+      </view>
+    </view>
+    <view class="btn-area">
+      <button formType="submit" type='primary' class='weui-btn'>去拿钱</button>
+    </view>
+
+  </form>
+</view>
+
+<button open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber"> </button>
+  <view class='advantage'>
+    <view>
+      <icon type='success' color='white' size='18'></icon>
+      <text>利率低</text>
+    </view>
+    <view>
+      <icon type='success' color='white' size='18'></icon>
+      <text>利率低</text>
+    </view>
+    <view>
+      <icon type='success' color='white' size='18'></icon>
+      <text>利率低</text>
+    </view>
+   </view>
+  <swiper autoplay='true' interval="5000" duration="1000" circular="true" vertical="true">
+    <block>
+      <swiper-item>
+        <text>1用户15920000000 xx分钟前 成功付款xx元</text>
+        <text>2用户15920000000 xx分钟前 成功付款xx元</text>
+      </swiper-item>
+      <swiper-item>
+        <text>3用户15920000000 xx分钟前 成功付款xx元</text>
+        <text>4用户15920000000 xx分钟前 成功付款xx元</text>
+      </swiper-item>
+      <swiper-item>
+        <text>5用户15920000000 xx分钟前 成功付款xx元</text>
+        <text>6用户15920000000 xx分钟前 成功付款xx元</text>
+      </swiper-item>
+      <swiper-item>
+        <text>7用户15920000000 xx分钟前 成功付款xx元</text>
+        <text>8用户15920000000 xx分钟前 成功付款xx元</text>
+      </swiper-item>
+    </block>
+  </swiper>

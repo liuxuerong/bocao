@@ -1,0 +1,159 @@
+page {
+  width: 100%;
+  height: 100%;
+  /* background: linear-gradient(#31c1fd, #a931ff); */
+  background: pink;
+  padding: 0 38rpx;
+  box-sizing: border-box;
+}
+
+.location image {
+  width: 40rpx;
+  height: 40rpx;
+  vertical-align: middle;
+  margin-right: 10rpx;
+}
+
+.location text {
+  height: 34rpx;
+  font-size: 30rpx;
+  color: #fff;
+  vertical-align: middle;
+}
+
+.limit {
+  height: 152rpx;
+  line-height: 152rpx;
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  color: #fff;
+  font-size: 70rpx;
+}
+.instrument{
+  width: 580rpx;
+  height: 380rpx;
+  display: block;
+  margin: 0 auto;
+}
+.getMoney{
+  display: block;
+  width: 100%;
+  height: 90rpx;
+  background: #fdc25b;
+  color: #fff;
+  line-height: 90rpx;
+  text-align: center;
+  border-radius: 45rpx;
+  font-size: 40rpx;
+  margin-top: 60rpx;
+}
+.advantage{
+  display: flex;
+  justify-content: space-around;
+}
+.advantage view{
+  height: 134rpx;
+  line-height: 134rpx;
+  font-size: 26rpx;
+  color: #fff;
+  vertical-align: middle;
+}
+.advantage view icon{
+    vertical-align: middle;
+    
+    width: 40rpx;
+    height: 90rpx;
+}
+.advantage view text{
+    vertical-align: middle;
+    padding-left: 12rpx;
+}
+swiper{
+  width: 632rpx;
+  height: 134rpx;
+  background: rgba(255,255,255,0.1);
+  border-radius: 10rpx;
+  margin: 0 auto;
+  padding: 26rpx 60rpx;
+  box-sizing: border-box;
+}
+swiper-item text{
+  color: #fff;
+  font-size: 26rpx;
+  height: 50%;
+  line-height: 40rpx;
+  display: block
+}
+.weui-cells {
+position:relative;
+margin-top:1.17647059em;
+background-color:#fff;
+line-height:1.41176471;
+font-size:17px;
+
+}
+/* .section{
+  display: flex;
+  flex-direction: row;
+}
+.section image{
+  width: 60rpx;
+  height: 60rpx;
+}
+.section__title{
+  color:#586c94;
+  font-size: 30rpx;
+} */
+.weui-cells_after-title image{
+width: 40rpx;
+height: 40rpx;
+/* flex: 1; */
+}
+.weui-cells_after-title{
+  display: flex;
+}
+.weui-cells_after-title navigator{
+  flex: 11;
+}
+.weui-input{
+  text-align: right;
+}
+.btn-area{
+  margin-top: 30rpx;
+}
+.weui-cells{
+  margin-top: 0;
+}
+.inputHid{
+  width: 0;
+  height: 0;
+  position: absolute;
+  right:1000px;
+}
+.myView {
+  font-size: 35rpx;
+  margin: 20rpx;
+}
+
+.cBtn {
+  height: 100rpx;
+  margin-left: 300rpx;
+}
+
+.cs_button {
+  background-color: #fff;
+  border: 0px;
+  height: 100rpx;
+  position: fixed;
+  margin-left: 240rpx;
+}
+
+.cs_button:after {
+  border: 0px;
+}
+
+.cs_image {
+  width: 100rpx;
+  height: 100rpx;
+}

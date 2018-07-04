@@ -1,0 +1,16 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/switchcity/switchcity",
+    "pages/accredit/accredit",
+    "pages/agreement/agreement",
+    "pages/information/information"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#31c1fd",
+    "navigationBarTitleText": "贷款信息平台",
+    "navigationBarTextStyle":"white"
+  }
+}

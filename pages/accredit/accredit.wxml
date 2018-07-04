@@ -1,0 +1,24 @@
+<text class='loginBig'>Hi，请登录</text>
+<text class='loginLit'>登录即可拿钱</text>
+  <!-- <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo" type='primary'> 微信快捷登录 </button> -->
+  <button  open-type="getUserInfo" bindgetuserinfo="getUserInfo" type='primary'> 微信快捷登录 </button>
+<text class='phone'>手机号登录</text>
+<view  class='agree'>
+<text> 登录即表示您同意</text> <navigator url='/pages/agreement/agreement'>{{xieyi}}</navigator> 
+</view>
+
+
+
+<!-- <view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view> -->
+
